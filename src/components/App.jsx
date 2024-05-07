@@ -12,7 +12,7 @@ function App() {
     setCurrentTime(new Date().toLocaleTimeString());
   }
 
-  setInterval(updateTime, 5000);
+  setInterval(updateTime, 1000);
 
   return (
     <div className="container">
